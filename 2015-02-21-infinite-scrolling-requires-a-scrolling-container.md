@@ -12,6 +12,8 @@ This isn't something new, but I've been skeptical about **infinite scrolling** r
 
 \* *Notice the scrollbar of the browser.*
 
+Recently, I encountered a problem for large screens wherein my container element is non-scrollable at initial state (similar to the first image).
+
 Other links
 
 - [UX.SE](http://ux.stackexchange.com/questions/73883/should-an-infinite-scroll-container-always-show-the-same-number-of-visible-items/73891?noredirect=1#comment114987_73891) question (which I submitted).
