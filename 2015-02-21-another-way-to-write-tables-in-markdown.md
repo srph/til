@@ -35,4 +35,4 @@ which evaluates to:
 
 <small> * *Notice that the above content is not a parsed markdown, but an image.* </small>
 
-However, it seems to only work when placed on the top (as title, maybe). I have no idea what it's called, though. Maybe, ```table titles``` or ```title table```? I don't know, *heh*.
+However, it seems to only work when placed on the top (as title, maybe). I have no idea what it's called, though. Maybe, ```table titles``` or ```title table```? I don't know, *heh*. I'm not sure if it works only for ```GFM``` (*Github-Flavored Markdown*), or it is included in the *Markdown* specification.
