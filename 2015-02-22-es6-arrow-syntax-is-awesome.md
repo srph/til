@@ -29,6 +29,7 @@ What's even more awesome is you can omit the the parenthesis (```( /** */ )```) 
 
 ```js
 var square = x => { x *= x };
+x.forEach(square);
 
 // Or we can directly pass the callback, and still produce 1-liner, less, beautiful code.
 x.forEach(x => { x *= x });
