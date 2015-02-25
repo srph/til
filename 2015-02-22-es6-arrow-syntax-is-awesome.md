@@ -39,3 +39,4 @@ Other Links
 
 - [```esnext/es6-arrow-function```](https://github.com/esnext/es6-arrow-function)
 - [MDN - Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+- [```getify/You-Dont-Know-JS``` (You Don't Know JS by @getify](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20%26%20beyond/ch2.md#arrow-functions)
