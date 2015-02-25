@@ -35,6 +35,15 @@ x.forEach(square);
 x.forEach(x => { x *= x });
 ```
 
+Oh, but I also just read that the statement body only needs to be enclosed by ```{ ... }``` if the statement consists of more than 1 expression. Otherwise, it is omittable, and there's an implied ```return``` of the expression.
+
+```
+x.forEach(x => x *= x);
+
+var y = [1, 2, 3];
+var ySquared = y.map(n => n * n);
+```
+
 Other Links
 
 - [```esnext/es6-arrow-function```](https://github.com/esnext/es6-arrow-function)
