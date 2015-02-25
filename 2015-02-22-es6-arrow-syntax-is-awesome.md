@@ -37,7 +37,7 @@ x.forEach(x => { x *= x });
 
 Oh, but I also just read that the statement body only needs to be enclosed by ```{ ... }``` if the statement consists of more than 1 expression. Otherwise, it is omittable, and there's an implied ```return``` of the expression.
 
-```
+```js
 x.forEach(x => x *= x);
 
 var y = [1, 2, 3];
