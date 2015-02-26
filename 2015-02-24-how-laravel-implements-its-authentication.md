@@ -14,6 +14,6 @@ A summary:
   - Validating a user (usually by password). 
   - The two above (Validation and Retrieving) are used together to check if the passed credentials are correct. Since validation is usually checking the password, the hashing is done by PHP to avoid overhead if the user does not exist. Bcrypt is fucking expensive.
 - Laravel uses ```UserInterface``` for the data model / fetcher itself.
-- Laravel uses ```UserTrait``` to fill in for ```UserInterface``` (for Eloquent only). I think should've been named as EloquentUserTrait.
-- Laravel does not fetch the user data if the ```user()``` method is not called (```Auth::user()```). It will only fetch it if called, and cache it to a data property, so no overhead (or unnecessary queries) for further calls of the method / fetching of the user.
-- Laravel (checking if a user is authenticated) not only checks the user data (if cached), but also checks if the session still exists, and is not logged out (calling the logout method, ```logout()```, will set the logged out flag to true).
+- Laravel uses ```UserTrait``` to fill in for ```UserInterface``` (for Eloquent only). I think should've been named as ```EloquentUserTrait```.
+- Laravel does not fetch the user data if the ```user()``` (```Auth::user```) method is not called. It will only fetch it if called, and cache it to a data property, so no overhead (or unnecessary queries) for further calls of the method / fetching of the user.
+- Laravel (checking if a user is authenticated) not only checks the user data (if cached), but also checks if the session still exists, and is not logged out (calling the logout method, ```logout()``` (```Auth::logout()```), will set the logged out flag to true).
