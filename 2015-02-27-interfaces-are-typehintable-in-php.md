@@ -2,7 +2,7 @@
 title: Interfaces are type-hintable in PHP
 ---
 
-This may not be surprising for other people, but I can't actually believe that type-hinting `Interface`s are possible without dependency injection. I'm surprised although having almost 2 years of experience with PHP.
+This may not be surprising for other people, but I can't actually believe that *type-hinting* `Interface`s are possible without *dependency injection*. I'm surprised although having almost `2` years of experience with **PHP**.
 
 ```php
 <?php
