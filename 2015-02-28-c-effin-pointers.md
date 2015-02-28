@@ -60,6 +60,8 @@ printf("%d", *(&x));
 
 Why don't you try it out?
 
+\* **Edit:** It works!
+
 *Other Links*:
 
 - [Stack Overflow - *What does `dereferencing` a pointer mean?](http://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean)
@@ -69,4 +71,4 @@ Both of the links above are **superb**! Finally, all articles about *pointers* n
 
 ## Note
 
-I'm thinking of a better way to explain *pointers*, so further mentees and other people won't face the same dilemma of seeing *pointers* as intricate beings.
+I'm thinking of a better way to explain *pointers*, so further mentees and other people won't face the same dilemma of seeing *pointers* as intricate beings when they're just misunderstood.
