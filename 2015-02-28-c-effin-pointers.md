@@ -62,7 +62,7 @@ Why don't you try it out?
 
 \* **Edit:** It works!
 
-*Other Links*:
+**Other Links**:
 
 - [Stack Overflow - *What does `dereferencing` a pointer mean?](http://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean)
 - [Stack Overflow - *int*\*\* *ptr = &x is not working*](http://stackoverflow.com/questions/27453461/warning-format-d-expects-argument-of-type-int-but-argument-2-has-type-in)
