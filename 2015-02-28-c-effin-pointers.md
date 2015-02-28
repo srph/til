@@ -15,14 +15,14 @@ printf("%d", &x); // Prints out something like x0WHATEVER
 
 The pointers can only have an address. Which means,
 
-```
+```c
 int x = 5;
 int* ptr = &x;
 ```
 
 Which tells that the value of `ptr` is the *address* of `x`. But we're not done yet, why don't we check `*ptr`'s value first?
 
-```
+```c
 // Should be equal
 printf("%d \n", ptr);
 printf("%d, &x);
@@ -32,7 +32,7 @@ We'll see that both the variable `ptr` (which is a pointer to the addess of an i
 
 To get the value of the address, we need the pointer to dereference it by using the *dereference* syntax.
 
-```
+```c
 // Since ptr is a pointer to the address of an integer, like so:
 int x = 5;
 int* ptr = &x;
@@ -45,15 +45,15 @@ printf("%d", x);
 
 To add, this won't compile although it's the `ptr` it looks like:
 
-```
+```c
 int **ptr = &x;
-``
+```
 
 Because `int **ptr` is expecting a value, not an address (`&x`).
 
 I'm thinking if this is possible:
 
-```
+```c
 int x = 5;
 printf("%d", *(&x));
 ```
