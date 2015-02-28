@@ -4,23 +4,22 @@ title: C's effin' pointers
 
 After a year and a half of writing code, I just realized how simple *C*'s pointers are.
 
-To get the address, you need to reference to it (*ampersand*, `&`).
+To get the address of a variable, you need to reference it (*ampersand*, `&`, e.g. `&x`).
 
 ```c
-// To get the reference to an address
 int x = 5;
 
-printf("%d", &x); // Prints out something like x0WHATEVER
+printf("%d", &x); // Prints out the address of `x`. Something like x0WHATEVER
 ```
 
-The pointers can only have an address. Which means,
+Pointers can only have an address. Which means,
 
 ```c
 int x = 5;
 int* ptr = &x;
 ```
 
-Which tells that the value of `ptr` is the *address* of `x`. But we're not done yet, why don't we check `*ptr`'s value first?
+Which tells that the value of `ptr` is the *address* of `x`. But we're not done yet, why don't we check `ptr`'s value first?
 
 ```c
 // Should be equal
@@ -30,7 +29,7 @@ printf("%d, &x);
 
 We'll see that both the variable `ptr` (which is a pointer to the addess of an integer [which is the address of `x`]) is equal to the address of `x` (as you can see, `&x`).
 
-To get the value of the address, we need the pointer to dereference it by using the *dereference* syntax.
+To get the value of an address (or value stored in an address), we need to *dereference* it (*asterisk*, `*`, e.g., (given that `ptr` is a pointer (and that it also points to the address of `x` (`&x`)) `*ptr`, and `*(&x)`).
 
 ```c
 // Since ptr is a pointer to the address of an integer, like so:
@@ -38,7 +37,8 @@ int x = 5;
 int* ptr = &x;
 
 // Now, since the variable `ptr` has the address of `x`, we dereference it to get the value
-// Should be equal
+// Should all print `5`
+printf("%d \n", *(&x));
 printf("%d \n", *ptr);
 printf("%d", x);
 ```
@@ -65,6 +65,7 @@ Why don't you try it out?
 *Other Links*:
 
 - [Stack Overflow - *What does `dereferencing` a pointer mean?](http://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean)
+- [Stack Overflow - *int*\*\* *ptr = &x is not working*](http://stackoverflow.com/questions/27453461/warning-format-d-expects-argument-of-type-int-but-argument-2-has-type-in)
 - [Dereference operator](http://en.wikipedia.org/wiki/Dereference_operator)
 
 Both of the links above are **superb**! Finally, all articles about *pointers* now make sense.
