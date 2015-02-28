@@ -12,14 +12,14 @@ int x = 5;
 printf("%d", &x); // Prints out the address of `x`. Something like x0WHATEVER
 ```
 
-Pointers can only have an *address*. Which means,
+Pointers can only have a value of an *address* (A pointer value is an address).
 
 ```c
 int x = 5;
 int* ptr = &x;
 ```
 
-Which tells that the *value* of `ptr` is the *address* of `x`. But we're not done yet, why don't we check `ptr`'s value first?
+The above example which tells that the *value* of `ptr` is the *address* of `x`. But we're not done yet, why don't we check `ptr`'s value first?
 
 ```c
 // Should be equal
