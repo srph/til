@@ -35,3 +35,7 @@ That means, in C++, assigning a `string` variable to one letter by means of an `
 // (aka 'basic_string<char, char_traits<char>, allocator<char> >')
 std::string x = 'x'; 
 ```
+
+**Other Links**:
+
+- [Stack Overflow - *Single Quotes vs Double Quotes in C*](http://stackoverflow.com/questions/3683602/single-quotes-vs-double-quotes-in-c)
