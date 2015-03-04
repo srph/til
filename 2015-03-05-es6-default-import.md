@@ -1,5 +1,5 @@
 ---
-title: ES6 Default Imports
+title: ES6 Default import
 ---
 
 \* *I am using [**Babel**](http://babeljs.io/) to transpile my code into vanilla ES5.*
