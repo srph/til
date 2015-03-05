@@ -6,9 +6,9 @@ title: ES6 Default import
 
 I'm new to ES6, and besides *actually not understanding* `Generators`, `Proxies`, `Reflect API`, and `Symbols`, I was bewildered with the new *API* of `Module`s.
 
-In ES5 or Common.js `require`, we used `exports` (*commonly known* as `module.exports`), like so:
+With Common.js `require`, `exports` was used (*commonly known* as `module.exports`), like so:
 
-```
+```js
 // x.js
 module.exports = 5;
 
