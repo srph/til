@@ -1,5 +1,6 @@
 ---
 title: Another way to write tables in markdown
+yolo: [Swag]
 ---
 
 I've always wrote markdown tables by
@@ -36,3 +37,16 @@ which evaluates to:
 <small> * *Notice that the above content is not a parsed markdown, but an image.* </small>
 
 However, it seems to only work when placed on the top (as title, maybe). I have no idea what it's called, though. Maybe, ```table titles``` or ```title table```? I don't know, *heh*. I'm not sure if it works only for ```GFM``` (*Github-Flavored Markdown*), or it is included in the *Markdown* specification.
+
+\* **Edit (3/6/2015)**: By adding brackets to a column, you can wrap it in some panel, like so:
+
+```
+---
+title: Yolo pls swag
+yolo: [Swag]
+---
+```
+
+Which evaluates to (don't mind the green-colored column, it's just Github's `diff` indicator):
+
+![Col wrapped in a panel](https://cloud.githubusercontent.com/assets/5093058/6520412/4e4f2574-c400-11e4-9d60-d936936c4009.png)
