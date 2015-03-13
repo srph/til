@@ -2,7 +2,7 @@
 title: Padding in percent (`%`) is based on its parent element's width
 ---
 
-Today, I stumbled upon Behance's feed design while re-designing Omai for smaller screens (`<= 480`). I noticed that the item thumbnail retained its proportions although its *height* being resized. I figured why.
+Today, I stumbled upon Behance's feed design while re-designing [Omai](https://github.com/srph/omai) for smaller screens (`<= 480`). I noticed that the item thumbnail retained its proportions although its *height* being resized. I figured why.
 
 After some research, quoting [WMYL](http://www.wmyl.se) from their [article](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css),
 
@@ -120,6 +120,8 @@ img {
     left: 0;
 }
 ```
+
+\* *This was tested only in FF `36`*
 
 **Other Links**:
 - [WMYL](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css)
