@@ -123,7 +123,7 @@ img {
 
 **Notes**:
 - This was tested only in FF `36`
-- About `position: absolute`, the element is *positioned* `relative` to its first positioned (not `static`) ancestor element, W3CSCchools. This is why it's important for parent or elements to have `position: relative` in most cases.
+- About `position: absolute`, the element is *positioned* `relative` to its first positioned (not `static`) ancestor element, W3CSCchools. This is why it's important for parent or elements to have `position: relative` in most cases (`relative` in most cases since it is closest to `static`).
 
 **Other Links**:
 - [WMYL](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css)
