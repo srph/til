@@ -10,7 +10,7 @@ After some research, quoting [WMYL](http://www.wmyl.se) from their [article](htt
 
 However, what I've noticed is that, it's actually relative to the parent element's width.
 
-Given the following examples using html structure:
+We'll be using the html structure for the following examples:
 
 ```html
 <div class="container">
