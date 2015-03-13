@@ -4,7 +4,7 @@ title: Padding in percent (`%`) is based on its parent element's width
 
 Today, I stumbled upon Behance's feed design while re-designing Omai for smaller screens (`<= 480`). I noticed that the item thumbnail retained its proportions although its *height* being resized. I figured why.
 
-After some research, quoting WMYL,
+After some research, quoting [WMYL](http://www.wmyl.se) from their [article](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css),
 
 > Padding in percent IS based on the elements width. So it turns out you actually CAN set the height of an element relative to its own width.
 
@@ -125,3 +125,4 @@ img {
 **Other Links**:
 - [WMYL](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css)
 - [Stack Overflow - *Why are margin/padding percetanges in CSS are always calculated against width*](http://stackoverflow.com/questions/11003911/why-are-margin-padding-percentages-in-css-always-calculated-against-width)
+- [Stack Overflow - *How to set the margin or padding as percentage of height or parent container*](http://stackoverflow.com/questions/4982480/how-to-set-the-margin-or-padding-as-percentage-of-height-or-parent-container)
