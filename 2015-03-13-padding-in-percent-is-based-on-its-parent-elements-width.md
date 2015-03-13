@@ -121,9 +121,12 @@ img {
 }
 ```
 
-\* *This was tested only in FF `36`*
+**Notes**:
+- This was tested only in FF `36`
+- About `position: absolute`, the element is *positioned* `relative` to its first positioned (not `static`) ancestor element, W3CSCchools. This is why it's important for parent or elements to have `position: relative` in most cases.
 
 **Other Links**:
 - [WMYL](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css)
 - [Stack Overflow - *Why are margin/padding percetanges in CSS are always calculated against width*](http://stackoverflow.com/questions/11003911/why-are-margin-padding-percentages-in-css-always-calculated-against-width)
 - [Stack Overflow - *How to set the margin or padding as percentage of height or parent container*](http://stackoverflow.com/questions/4982480/how-to-set-the-margin-or-padding-as-percentage-of-height-or-parent-container)
+- [WC3Schools - **CSS** / *Positions*](http://www.w3schools.com/cssref/pr_class_position.asp)
