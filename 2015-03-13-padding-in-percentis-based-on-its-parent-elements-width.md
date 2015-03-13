@@ -67,7 +67,6 @@ img {
 A little fact, giving an element a fixed width scales an image to be proportional. However, giving an element a fixed height does not. This is due to the [CSS Box Model specification](http://www.w3.org/TR/CSS2/box.html#margin-properties).
 
 > The [margin] percentage is calculated with respect to the width of the generated box's containing block. Note that this is true for 'margin-top' and 'margin-bottom' as well. If the containing block's width depends on this element, then the resulting layout is undefined in CSS 2.1. (emphasis mine)
-```
 
 To properly fix the example from WMYL, let's alter the html structure a bit, like so:
 
