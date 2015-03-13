@@ -121,6 +121,10 @@ img {
 }
 ```
 
+![Screenshot](https://cloud.githubusercontent.com/assets/5093058/6643980/85f91ac0-c9eb-11e4-81b0-49492724ab06.png)
+
+You may tinker the code above with this [fiddle](http://jsfiddle.net/srph/m6vpkzjh/).
+
 **Notes**:
 - This was tested only in FF `36`
 - About `position: absolute`, the element is *positioned* `relative` to its first positioned (not `static`) ancestor element, W3CSCchools. This is why it's important for parent or elements to have `position: relative` in most cases (`relative` in most cases since it is closest to `static`).
