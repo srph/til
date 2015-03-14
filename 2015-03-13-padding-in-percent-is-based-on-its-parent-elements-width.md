@@ -4,6 +4,8 @@ title: Padding in percent (`%`) is based on its parent element's width
 
 Today, I stumbled upon Behance's feed design while re-designing [Omai](https://github.com/srph/omai) for smaller screens (`<= 480`). I noticed that the item thumbnail retained its proportions although its *height* being resized. I figured why.
 
+![Behance Design](https://cloud.githubusercontent.com/assets/5093058/6650409/09a1bec2-ca4b-11e4-8269-b06d31414ee7.gif)
+
 After some research, quoting [WMYL](http://www.wmyl.se) from their [article](http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css),
 
 > Padding in percent IS based on the elements width. So it turns out you actually CAN set the height of an element relative to its own width.
