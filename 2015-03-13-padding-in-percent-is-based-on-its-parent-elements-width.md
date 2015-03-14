@@ -42,7 +42,7 @@ img {
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/5093058/6642678/77eac708-c9e1-11e4-98e8-af3e348803c7.png)
 
-The reason their statement *is* `true` *at first*, *but* not *when* analyzed, is that both `width` and `padding-bottom` of the parent element (`.container`) are using its parent element's (`body`, not to be confused with `.container`) `width`.
+The reason their statement *is* `true` *at first*, *but* not *when* analyzed, is that both `width` and `padding-bottom` (in percentage (`%`)) of the parent element (`.container`) are using its parent element's (`body`, not to be confused with `.container`) `width`.
 
 In our next example, I fiddled with the code and set the parent element (`.container`) to a fixed `width`. It turns out that it's not proportional *anymore*.
 
