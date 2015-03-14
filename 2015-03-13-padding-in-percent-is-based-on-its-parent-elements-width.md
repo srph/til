@@ -15,7 +15,7 @@ However, what I've noticed is that, it's actually relative to the parent element
 We'll be using the html structure for the following examples:
 
 ```html
-<div class="container">
+<div class="imageContainer">
   <img src="">
 </div>
 ```
@@ -23,7 +23,7 @@ We'll be using the html structure for the following examples:
 For the first example, we'll be basing our code on WMYL's article,
 
 ```css
-.container {
+.imageContainer {
     position: relative;
     width: 25%;
     padding-bottom: 25%;
@@ -44,10 +44,10 @@ img {
 
 The reason their statement *is* `true` *at first*, *but* not *when* analyzed, is that both `width` and `padding-bottom` (in percentage (`%`)) of the parent element (`.container`) are using its parent element's (`body`, not to be confused with `.container`) `width`.
 
-In our next example, I fiddled with the code and set the parent element (`.container`) to a fixed `width`. It turns out that it's not proportional *anymore*.
+In our next example, I fiddled with the code and set the parent element (`.imageContainer`) to a fixed `width`. It turns out that it's not proportional *anymore*.
 
 ```css
-.container {
+.imageContainer {
     position: relative;
     width: 50px;
     padding-bottom: 25%;
