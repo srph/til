@@ -65,6 +65,8 @@ it('should remove itself when an the image loads with an error', function() {
 });
 ```
 
+Moreover, you can pass an optional event data (to override some properties in the event data). More on [React's Documentation](https://facebook.github.io/react/docs/test-utils.html)!
+
 **Other Links**:
 - [Stack Overflow - *React + Jest - Testing `error` event on `IMG` tags](http://stackoverflow.com/questions/29058211/react-jest-testing-error-event-on-img-tags/29063395#29063395)
 - [ReactJS Documentation - Test Utilities](https://facebook.github.io/react/docs/test-utils.html)
