@@ -46,9 +46,9 @@ describe('X component', () => {
 
 \* <sub> In the code above, I'm using **chai** as my assertion library </sub>
 
-In general, when the React docs states that it will throw an error, I'll test it against that. Which I'm not sure about whether it's a good practice or not.
+In general, when the docs states that it will throw an error, I'll just test it against that. However, I'm not sure about whether it's a good practice or not.
 
-I hope that you noticed that I did not test wherein *component* `Z` should show. That's up to you now ;).
+I hope that you noticed that I did not test the other case wherein *component* `Z` should show. That's up to you now ;).
 
 **Other Links**:
 - [**Test Utilities | ReactJS**](https://facebook.github.io/react/docs/test-utils.html#findrenderedcomponentwithtype)
