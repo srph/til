@@ -15,9 +15,7 @@ This is where Relay steps in (or peed at, haha).
 
 **(TL;DR)** *Components*, (specifically ones that play as the *container*), handle the requesting of the data, and hydrate the Flux Stores (with the response payload, ofc) afterwards. In a sense, it’s similar to Angular’s resolves.
 
-So for now, it might be a better idea to start writing some of my stuff to the said paradigm. There’s [**react-resolver**](https://github.com/ericclemmons/react-resolver/) anyway (while Relay is still a work in progress), which is an awesome work by [ericclemmons](https://github.com/ericclemmons/).
-
-One downside of Relay is it depends on GraphQL; we can only incorporate its core concept, but not itself, to projects or APIs not using GraphQL.
+Although awesome, one downside of Relay is it depends on GraphQL; we can only incorporate its core concept, but not itself, to projects or APIs not using GraphQL. This is where a library like [**react-resolver**](https://github.com/ericclemmons/react-resolver/) kicks in, which is agnostic of your API unlike Relay.
 
 Honestly, I’m awestruck by this out-of-the-blue idea. Over-eating can sometimes be awesome, haha (no not really, I’ve gotten so unhealthy and attractive and fat now).
 
