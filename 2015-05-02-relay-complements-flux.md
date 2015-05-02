@@ -15,7 +15,7 @@ This is where Relay steps in (or peed at, haha).
 
 **(TL;DR)** *Components*, (specifically ones that play as the *container*), handle the requesting of the data, and hydrate the Flux Stores (with the response payload, ofc) afterwards. In a sense, it’s similar to Angular’s resolves.
 
-So for now, it might be a better idea to start writing some of my stuff to the said paradigm. There’s [**react-resolver**](https://github.com/ericclemmons/react-resolver/) anyway (while Relay is still a work in progress), which is an awesome work by [ericclemmons](https://github.com/ericclemmons/). To add, **Relay** depends on **GraphQL**; that means that we can only incorporate a few of its core concepts (specifically its *resolve*-like concept) to projects **not using** GraphQL. 
+So for now, it might be a better idea to start writing some of my stuff to the said paradigm. There’s [**react-resolver**](https://github.com/ericclemmons/react-resolver/) anyway (while Relay is still a work in progress), which is an awesome work by [ericclemmons](https://github.com/ericclemmons/). In addition, **Relay** depends on **GraphQL**; we can only incorporate its core concept to projects **not using** GraphQL.
 
 Honestly, I’m awestruck by this out-of-the-blue idea. Over-eating can sometimes be awesome, haha (no not really, I’ve gotten so unhealthy and attractive and fat now).
 
@@ -24,3 +24,4 @@ Honestly, I’m awestruck by this out-of-the-blue idea. Over-eating can sometime
 - [Flux](https://facebook.github.io/flux)
 - [Relay (Gist)](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_is_Relay)
 - [react-resolver](https://github.com/ericclemmons/react-resolver/)
+- [Introducing Relay and GraphQL - ReactJS Blog](https://facebook.github.io/react/blog/2015/02/20/introducing-relay-and-graphql.html).
