@@ -9,7 +9,7 @@ As I wade through the tides with Flux, I noticed a few weaknesses along the way.
 
 This counter-productivity isn’t what I signed up for.
 
-Just now (after a heavy meal for a breakfast) giving it some thought, Flux's primary strength isn't fetching data; it's managing data. Although the majority of examples include data-fetching and API requests, it’s starting to hit me that Flux is crossing another territory that someone has already peed at; it's hammering nails it wasn't supposed to hmamer.
+Giving it some thought just now (after a heavy breakfast), Flux’s primary strength isn’t fetching data; it’s managing data. Although the majority of examples include data-fetching and API requests, it’s starting to hit me that Flux is crossing another territory that someone has already peed at; it’s hammering nails it wasn’t supposed to hammer.
 
 This is where Relay steps in (or peed at, haha).
 
