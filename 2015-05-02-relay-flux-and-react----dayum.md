@@ -1,9 +1,6 @@
 ---
-title: Relay, Flux, and React. 
+title: Relay, Flux, and React -- Dayum!
 ---
-
-
-I’ve been introduced to both [**React**](https://facebook.github.io/react) and [**Flux**](https://facebook.github.io/flux) months ago, but only started to incorporate both in a real-world project recently. One thing I liked about React and Flux is how the views and data are being properly managed; predicting outcome and testability just go so easy. I am bewildered with how data and states are having proper separation of concerns.
 
 Facebook announced [Relay](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_is_Relay) few months ago. It didn’t make sense for me because I only thought it was a replacement for Flux.
 
@@ -15,8 +12,14 @@ Just now (after a heavy meal for a breakfast) giving it some thought, Flux's pri
 
 This is where Relay steps in (or peed at, haha).
 
-To put it in summary, *components*, (specifically ones that play as the *container*), handle the requesting of the data, and hydrate the Flux Stores (with the response payload, ofc) afterwards. In a sense, it’s similar to Angular’s resolves.
+**(TL;DR)** *Components*, (specifically ones that play as the *container*), handle the requesting of the data, and hydrate the Flux Stores (with the response payload, ofc) afterwards. In a sense, it’s similar to Angular’s resolves.
 
 So for now, it might be a better idea to start writing some of my stuff to the said paradigm. There’s [**react-resolver**](https://github.com/ericclemmons/react-resolver/) anyway (while Relay is still a work in progress), which is an awesome work by [ericclemmons](https://github.com/ericclemmons/).
 
 Honestly, I’m awestruck by this out-of-the-blue idea. Over-eating can sometimes be awesome, haha (no not really, I’ve gotten so unhealthy and attractive and fat now).
+
+**Other Links**:
+- [React](https://facebook.github.io/react)
+- [Flux](https://facebook.github.io/flux)
+- [Relay (Gist)](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_is_Relay)
+- [react-resolver](https://github.com/ericclemmons/react-resolver/)
