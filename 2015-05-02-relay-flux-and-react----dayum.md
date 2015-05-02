@@ -4,7 +4,7 @@ title: Relay, Flux, and React -- Dayum!
 
 Facebook announced [Relay](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_is_Relay) few months ago. It didn’t make sense for me because I only thought it was a replacement for Flux.
 
-However, as I wade through the tides with Flux, I noticed a few weaknesses along the way. Data-fetching with Flux isn’t so awesome with this hammer, honestly. It also goes to the point that Flux and React crosses each other’s world, when there’s no good reason to. I also noticed how stale the process is, and how it makes me an unproductive developer.
+As I wade through the tides with Flux, I noticed a few weaknesses along the way. Data-fetching isn’t so awesome with a hammer like Flux. It also goes to the point that Flux and React crosses each other’s world, when there’s no good reason to. I also noticed how stale the process is, and how it makes me an unproductive developer.
 
 This unproductivity isn’t what I signed up for.
 
