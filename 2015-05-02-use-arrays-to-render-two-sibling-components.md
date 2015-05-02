@@ -2,7 +2,7 @@
 title: Use arrays to render two components
 ---
 
-For guys that use JSX, it was weird that it's not possible return two sibling components. For instance:
+At first, it was weird that it's not possible return two sibling components. For instance:
 
 ```jsx
 class MyComponent extends React.Component {
@@ -15,7 +15,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-A component requires a wrapping component when it has two or more components to render. To make the example above work, we can wrap it in a friendly element like `span`:
+To make the example above work, we can wrap it in a friendly element like `span`:
 
 ```jsx
 class MyComponent extends React.Component {
