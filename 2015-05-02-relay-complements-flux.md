@@ -1,12 +1,13 @@
 ---
-title: Facebook Relay -- Dayum!
+title: Relay complements Flux!
+description: As a joint unit, they are truly React’s friends.
 ---
 
 Facebook announced [Relay](https://gist.github.com/wincent/598fa75e22bdfa44cf47#What_is_Relay) a few months ago. It *didn’t* make sense for me because I only thought it was a replacement for Flux; I just realized it wasn't.
 
 As I wade through the tides with Flux, I noticed a few weaknesses along the way. Data-fetching isn’t so awesome with a hammer like Flux. It also goes to the point that Flux and React crosses each other’s world, when there’s no good reason to. I also noticed how stale the process is, and how it makes me an unproductive developer.
 
-This unproductivity isn’t what I signed up for.
+This counter-productivity isn’t what I signed up for.
 
 Just now (after a heavy meal for a breakfast) giving it some thought, Flux's primary strength isn't fetching data; it's managing data. Although the majority of examples include data-fetching and API requests, it’s starting to hit me that Flux is crossing another territory that someone has already peed at; it's hammering nails it wasn't supposed to hmamer.
 
