@@ -11,7 +11,7 @@ title: JavaScript&#58; [].reduce initial value
 });
 ```
 
-In the example above, `prev == 1` and `cur == 2` in the first iteration, and it goes on. However, if we add an initial value,
+In the example above, `prev == 1` and `cur == 2` in the first iteration, and it goes on. It starts on the second value in the array. However, if we add an initial value,
 
 ```js
 [1, 2, 3].reduce(function(prev, cur) { 
@@ -20,4 +20,4 @@ In the example above, `prev == 1` and `cur == 2` in the first iteration, and it 
 }, 0);
 ```
 
-`prev == 0`, and `cur == 1` in the first iteration.
+`prev == 0`, and `cur == 1` in the first iteration. It starts on the initial value, technically, starting on the first value in the array.
