@@ -1,5 +1,5 @@
 ---
-title: <label> tag in accessibility
+title: (&lt;label&gt;) tag in accessibility
 ---
 
 I just found out that the `<label>` is a good assistive technology for forms.
