@@ -2,7 +2,7 @@
 title: :checked pseudo-class
 ---
 
-CSS supports the `:checked` *pseudo-class* (`input:checked`), which means we can build awesome stuff like stop/pause, hide/show, or anything similar with CSS alone.
+CSS supports the `:checked` *pseudo-class* (`input:checked`). This gives us the option to build awesome stuff like stop/pause, hide/show, or anything similar with CSS alone.
 
 For example,
 
