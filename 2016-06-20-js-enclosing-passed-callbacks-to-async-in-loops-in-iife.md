@@ -1,5 +1,5 @@
 ---
-title: JavaScript: Enclosing function in loops in IIFE.
+title: JavaScript: Enclosing passed callbacks to asynchronous functions in loops in IIFE.
 ---
 
 It's a good practice to enclose functions declared inside for loops in IIFEs.
