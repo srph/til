@@ -6,7 +6,7 @@ To get all defined variables, we can simply use a *private* variable set by blad
 
 ```php
 <?php
-dd(array_except(__data, ['__env', 'errors']));
+dd(array_except(__data, ['__env', 'app', 'errors']));
 ```
 
 I accidentally found out while looking at the compiled views. Useful for debugging or test routes (for *View Composers*).
