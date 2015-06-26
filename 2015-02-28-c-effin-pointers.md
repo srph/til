@@ -51,6 +51,18 @@ int **ptr = &x;
 
 Because `int **ptr` is expecting a value, not an *address* (`&x`).
 
+To make it work as intended, we can do this:
+
+```c
+int **ptr = *(&x);
+
+// to test
+printf("%d", ptr);
+printf("%d, x);
+```
+
+Definitely, it should compile, but may generate warnings (like what occured to me).
+
 **Other Links**:
 
 - [Stack Overflow - *What does `dereferencing` a pointer mean?](http://stackoverflow.com/questions/4955198/what-does-dereferencing-a-pointer-mean)
