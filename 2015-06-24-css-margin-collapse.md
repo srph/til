@@ -28,7 +28,8 @@ Let's explain this with code and a couple of screenshots.
 
 This results to:
 
-<!-- insert -->
+![screenshot 2015-06-28 21 36 04](https://cloud.githubusercontent.com/assets/5093058/8396551/894031b4-1ddd-11e5-9e57-783a3e28740a.png)
+
 
 <sup>Check the [demo here](http://codepen.io/srph/pen/RPxZqy)</sup>
 
