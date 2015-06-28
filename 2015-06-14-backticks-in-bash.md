@@ -1,5 +1,5 @@
 ---
-title: Backticks
+title: Backticks in Bash
 ---
 
 Backticks (``` `` ```) are used as substitution in Bash, similar to `$()`.
