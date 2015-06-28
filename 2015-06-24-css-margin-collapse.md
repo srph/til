@@ -30,6 +30,8 @@ This results to:
 
 <!-- insert -->
 
+<sup>Check the [demo here](http://codepen.io/srph/pen/RPxZqy)</sup>
+
 Works, right? But it's not working as we intended. If you'll look closely, the vertical allowance / spacing between the first block and the second block isn't 50px; it's 25px.
 
 To elaborate:
