@@ -35,6 +35,8 @@ This results to:
 
 Works, right? But it's not working as we intended. If you'll look closely, the vertical allowance / spacing between the first block and the second block isn't 50px; it's 25px.
 
+This is **Margin collapsing**. More about on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin_collapsing). TL;DR: When two blocks have intersecting margins, the larger margin is used (and the smaller margin is discarded).
+
 To elaborate:
 
 ```css
@@ -55,5 +57,3 @@ h1 {
 ```
 
 What would be the margin between the `h1` and `p` element be? It's `25px` just as you were thinking (or maybe not?).
-
-**Margin collapsing**. More about on [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/margin_collapsing). TL;DR: When two blocks have intersecting margins, the larger margin is used (and the smaller margin is discarded).
