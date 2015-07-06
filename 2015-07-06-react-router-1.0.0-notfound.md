@@ -2,7 +2,7 @@
 title: React Router: 1.0.0 <NotFoundRoute />
 ---
 
-The 1.0.0 update the removal of the `NotFoundRoute` component.
+The 1.0.0 update includes the removal of the `NotFoundRoute` component.
 
 We can use `path="*"` for the 404`` route.
 
