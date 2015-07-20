@@ -1,5 +1,5 @@
 ---
-title: ES6: Destructuring in arguments
+title: ES6: Destructuring arguments
 ---
 
 In ES5, there's no way to directly extract a property from an object argument. Take this as an example,
