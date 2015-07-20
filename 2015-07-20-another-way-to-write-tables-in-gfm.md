@@ -10,7 +10,7 @@ title: Something
 ---
 ```
 
-<sub>evalues to</sub>
+<sub>which evalues to</sub>
 
 ![table](https://cloud.githubusercontent.com/assets/5093058/6520412/4e4f2574-c400-11e4-9d60-d936936c4009.png)
 
