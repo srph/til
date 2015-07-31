@@ -31,6 +31,13 @@ var x = z.x;
 var m = z.y.m;
 ```
 
+If we wanted to have `m` in our scope, we'll have to destructure it in *another line*:
+
+```es6
+const { x, y } = z;
+const { m } = y;
+```
+
 Haven't fully grasped the specifications.
 
 **Other Links**:
