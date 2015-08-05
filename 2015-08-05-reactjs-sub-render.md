@@ -2,7 +2,7 @@
 title: ReactJS: sub-renders
 ---
 
-Sub-render methods are used to isolate logical chunks of component UI. More on [*planningcenter/react-patterns*](https://github.com/planningcenter/react-patterns#sub-render).
+*Sub*-`render` methods are used to isolate logical chunks of component UI. More on [*planningcenter/react-patterns*](https://github.com/planningcenter/react-patterns#sub-render).
 
 ```es6
 class YesOrNo extends Component {
