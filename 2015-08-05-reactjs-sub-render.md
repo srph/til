@@ -105,5 +105,5 @@ export default class UserPanel extends React.Component {
 }
 ```
 
-**References*:
+**References**:
 - [*planningcenter/react-patterns*](https://github.com/planningcenter/react-patterns#sub-render)
