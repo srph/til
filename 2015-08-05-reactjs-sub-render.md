@@ -48,7 +48,7 @@ This also makes the code easier to read.
 
 Although, I find it arguable that we can make another component to isolate the UI logic. But this kind of code happens sometimes:
 
-```
+```es6
 import React, { PropTypes } from 'react';
 
 import Empty from './Empty';
