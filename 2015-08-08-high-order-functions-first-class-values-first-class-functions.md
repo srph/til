@@ -4,7 +4,7 @@ title: High-order functions, First-class functions, First-class values
 
 Really, TIL. I wasn't very aware with terms, although I was fully aware and heard of [*High-order components*](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750) by [gaearon (Dan Abramov)](https://github.com/gaearon).
 
-[*High-order functions*](http://www.quora.com/What-is-a-simple-explanation-of-higher-order-functions-and-callbacks-in-JavaScript) are functions that simply take functions as input, and call the function in its process.
+[*High-order functions*](http://www.quora.com/What-is-a-simple-explanation-of-higher-order-functions-and-callbacks-in-JavaScript) are functions that simply take functions as input, and call the function in its process. This concept is particularly popular and most used in [functional programming](https://en.wikipedia.org/wiki/Functional_programming).
 
 A very simple example (an incomplete implementation of the native `forEach`), in JavaScript:
 
