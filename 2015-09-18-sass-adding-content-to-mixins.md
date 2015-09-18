@@ -1,5 +1,5 @@
 ---
-title: Sass: Adding property contents to mixins
+title: Sass: Adding content to mixins
 ---
 
 I'm bad at following instructions; I always jump over some sections in any documentation, and usually just take what I think I need.
