@@ -1,5 +1,5 @@
 ---
-title: Global Karma installation does not read local modules
+title: karma-runner&colon; Global `karma` installation does not read local modules
 ---
 
 If you installed `karma` to your global installation, and run it for a local project, you'll most likely run into an issue; because `karma` does not read local modules (it won't read your local karma plugins).
