@@ -11,3 +11,6 @@ WARNING! <some-module> count not be found.
 ```
 
 Instead, to fix this, you should be using [`karma-cli`](http://github.com/karma-runner/karma-cli). Or better yet, use your local karma installation (from `./node_modules/.bin/karma`).
+
+**References**:
+- [**Karma can't find the npm modules** (karma-runner/karma #1488)](https://github.com/karma-runner/karma/issues/1488)
