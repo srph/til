@@ -8,7 +8,7 @@ Interestingly, The double-tilde operator (`~~`) is a double *bitwise NOT operato
 ~~2.369 === Math.floor(2.369); // true
 ```
 
-Some notes to be taken:
+Some notes which I highly regard:
 - In comparison to  `Math.floor`, some benchmarks show that there's very little to no performance gain with the `~~` operator; and it's slower in some browsers.
 - It's not very readable; hides the intention of the code.
   - It's not a widely known usage of the operator
