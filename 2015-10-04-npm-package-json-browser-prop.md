@@ -4,7 +4,7 @@ title: npm&colon; `browser` prop in `package.json`
 
 Module bundlers such as browserify and webpack supports the `browser` prop in `package.json`; they use the `browser` prop by default, and falls back to the `main`.
 
-This allows us to support *isomorphic* packages.
+This allows us to support [*isomorphic*](https://the-pastry-box-project.net/charlie-robbins/2014-november-5) packages.
 
 ```json
 {
