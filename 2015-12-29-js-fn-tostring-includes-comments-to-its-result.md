@@ -1,5 +1,5 @@
 ---
-title: JS&colon; Function.Prototype.toString reads comments
+title: JS&colon; Function.Prototype.toString includes comments to its result
 ---
 
 Let's take this code as an example:
