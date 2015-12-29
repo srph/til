@@ -52,7 +52,7 @@ Commands:
     info                    Info of a particular package
 ```
 
-> What does `console.log(help.toString().split('\n').slice(2, -2).join('\n'));` do?
+> What does `help.toString().split('\n').slice(2, -2).join('\n')` do?
 
 Let's breakdown that code a bit.
 
