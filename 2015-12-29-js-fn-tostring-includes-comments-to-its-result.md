@@ -56,7 +56,7 @@ Commands:
 
 Let's breakdown that code a bit.
 
-- First, we use `toString`.
+- First, we use `toString()` to convert our function to a string.
 - Next, we call `split('\n')` which convert a string to an array. In this case we split it by each line.
 - Afterwards, we use `slice(2, -2)` to remove the the function declaration (`function help() {` and `}`) in the first and last line from the string; and remove the starting/closing multi-line comment (`/*` and `*/`) on the second and second to the last line.
 - Lastly, we call `join('\n')` to convert it back to a string (; undoing `split('\n')`).
