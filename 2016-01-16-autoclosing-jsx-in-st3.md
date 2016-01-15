@@ -12,3 +12,6 @@ Here's a simple before-and-after:
 - <Hello style={{ color: 'red' }}>
 + <Hello style={{ color: 'red' }}></Hello>
 ```
+
+![jsx](https://cloud.githubusercontent.com/assets/5093058/12360122/f70e1c86-bbf0-11e5-9f42-2e9f6377d864.gif)
+
